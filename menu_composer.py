@@ -8,9 +8,9 @@ week_days = ['lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi', 'diman
 
 st.set_page_config(page_title="week foods", layout="wide")
 
-st.title('Weekly menu generator')
+st.title('Home weekly menu generator')
 
-generate = st.button('Generate this week food')
+generate = st.button('Generate this week menu')
 
 if generate : 
     with st.spinner('Generating menu...') : 
